@@ -161,16 +161,16 @@ const sightsArr = [
 		],
 		gallery: {
 			lowRes: [
-				"/data/gallery/postojna_cave/Postojna_Cave_01_Low.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_02_Low.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_03_Low.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_04_Low.jpg"
+				"data/gallery/postojna_cave/Postojna_Cave_01_Low.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_02_Low.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_03_Low.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_04_Low.jpg"
 			],
 			highRes: [
-				"/data/gallery/postojna_cave/Postojna_Cave_01.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_02.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_03.jpg",
-				"/data/gallery/postojna_cave/Postojna_Cave_04.jpg"
+				"data/gallery/postojna_cave/Postojna_Cave_01.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_02.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_03.jpg",
+				"data/gallery/postojna_cave/Postojna_Cave_04.jpg"
 			],
 			alternateText: [
 				"Postojna Cave",
@@ -191,16 +191,16 @@ const sightsArr = [
 		],
 		gallery: {
 			lowRes: [
-				"/data/gallery/predjmna_castle/Predjama_Castel_01_Low.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_02_Low.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_03_Low.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_04_Low.jpg"
+				"data/gallery/predjmna_castle/Predjama_Castel_01_Low.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_02_Low.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_03_Low.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_04_Low.jpg"
 			],
 			highRes: [
-				"/data/gallery/predjmna_castle/Predjama_Castel_01.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_02.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_03.jpg",
-				"/data/gallery/predjmna_castle/Predjama_Castel_04.jpg"
+				"data/gallery/predjmna_castle/Predjama_Castel_01.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_02.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_03.jpg",
+				"data/gallery/predjmna_castle/Predjama_Castel_04.jpg"
 			],
 			alternateText: [
 				"Predjama Castel",
@@ -221,16 +221,16 @@ const sightsArr = [
 		],
 		gallery: {
 			lowRes: [
-				"/data/gallery/julian_alps/Julian_Alps_01_Low.jpg",
-				"/data/gallery/julian_alps/Julian_Alps_03_Low.jpg",
-				"/data/gallery/julian_alps/Julian_Alps_04_Low.jpg",
-				"/data/gallery/julian_alps/triglav.jpg"
+				"data/gallery/julian_alps/Julian_Alps_01_Low.jpg",
+				"data/gallery/julian_alps/Julian_Alps_03_Low.jpg",
+				"data/gallery/julian_alps/Julian_Alps_04_Low.jpg",
+				"data/gallery/julian_alps/triglav.jpg"
 			],
 			highRes: [
-				"/data/gallery/julian_alps/Julian_Alps_01.jpg",
-				"/data/gallery/julian_alps/Julian_Alps_03.jpg",
-				"/data/gallery/julian_alps/Julian_Alps_04.jpg",
-				"/data/gallery/julian_alps/triglav.jpg"
+				"data/gallery/julian_alps/Julian_Alps_01.jpg",
+				"data/gallery/julian_alps/Julian_Alps_03.jpg",
+				"data/gallery/julian_alps/Julian_Alps_04.jpg",
+				"data/gallery/julian_alps/triglav.jpg"
 			],
 			alternateText: [
 				"Julian Alps",
