@@ -91,9 +91,7 @@ async function loadHighResImage(data, item = 0) {
 
 	try {
 		const url = data.gallery.highRes[item];;
-		// const url = '../' + data.gallery.highRes[item];
-		// data/gallery/slovenia/Piran.jpg
-		console.log(url);
+
 		const blobResult = await getImage(url);
 		const imageUrl = URL.createObjectURL(blobResult);
 
@@ -116,11 +114,7 @@ async function loadHighResImage(data, item = 0) {
 	document.querySelector('.main-module__gallery').style.pointerEvents = 'auto';
 
 	async function getImage(url) {
-		console.log(url);
-		const res = await fetch(url, {
-			method: "GET"
-		});
-		console.log(res);
+		const res = await fetch(url);
 		const blob = await res.blob();
 		return blob;
 	};
