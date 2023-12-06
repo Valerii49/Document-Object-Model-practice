@@ -95,8 +95,8 @@ async function loadHighResImage(data, item = 0) {
 		// data/gallery/slovenia/Piran.jpg
 		console.log(url);
 		const blobResult = await getImage(url);
+		const imageUrl = URL.createObjectURL(blobResult);
 
-		https://github.com/Valerii49/Document-Object-Model-practice/blob/d3371b5e098c41ba692d237c8f74803afdf5cb36/data/gallery/slovenia/Piran.jpg
 		const mainImage = document.querySelector('.main-module__image');
 		const mainImageInner = `<img src=${imageUrl} alt="${data.sightName}">
 	<div class="main-module__text"><p>${data.sightAbout[item]}</p></div>`;
