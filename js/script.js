@@ -90,7 +90,7 @@ async function loadHighResImage(data, item = 0) {
 	styleVar.setProperty('--display-after', 'block');
 
 	try {
-		const url = 'data/gallery/slovenia/Piran.jpg';
+		const url = data.gallery.highRes[item];;
 		// const url = '../' + data.gallery.highRes[item];
 		// data/gallery/slovenia/Piran.jpg
 		console.log(url);
