@@ -112,7 +112,9 @@ async function loadHighResImage(data, item = 0) {
 	document.querySelector('.main-module__gallery').style.pointerEvents = 'auto';
 
 	async function getImage(url) {
-		const res = await fetch(url);
+		const res = await fetch(url, {
+			method: "GET"
+		});
 		const blob = await res.blob();
 		return blob;
 	};
