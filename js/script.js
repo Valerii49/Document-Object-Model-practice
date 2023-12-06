@@ -90,9 +90,11 @@ async function loadHighResImage(data, item = 0) {
 	styleVar.setProperty('--display-after', 'block');
 
 	try {
-		const url = data.gallery.highRes[item];
+		const url = '../' + data.gallery.highRes[item];
+		console.log(url);
 		const blobResult = await getImage(url);
-
+		console.log(blobResult);
+		console.log(blobResult.ok);
 		const mainImage = document.querySelector('.main-module__image');
 		const mainImageInner = `<img src=${imageUrl} alt="${data.sightName}">
 	<div class="main-module__text"><p>${data.sightAbout[item]}</p></div>`;
