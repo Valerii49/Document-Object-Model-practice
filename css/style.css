@@ -524,13 +524,15 @@ body {
   overflow: hidden;
   position: relative;
   aspect-ratio: 4/3;
+}
+.main-module__image-gallery img {
   transition: transform 0.3s ease;
 }
-.main-module__image-gallery:focus {
+.main-module__image-gallery:focus img {
   transform: scale(1.1);
 }
 @media (any-hover: hover) {
-  .main-module__image-gallery:hover {
+  .main-module__image-gallery:hover img {
     transform: scale(1.1);
   }
 }
